@@ -1,0 +1,18 @@
+extends layout
+
+block content
+ h1(style="margin-top:250px")
+  .container
+    h1 Login
+    p.lead
+      | Sign in with your account. Don't have one?
+      a(href='/register') Register Now.
+    .form-group
+      label(for='username') Username
+      input.form-control(type='text', id='username', name='username', placeholder='Enter a username')
+    .form-group
+      label(for='password') Password
+      input.form-control(type='password', id='password', name='password', placeholder='Enter a password')
+    button.btn.btn-primary(type='submit') Submit
+    &nbsp;
+    a.btn.btn-default(role='button', href='/') Cancel
