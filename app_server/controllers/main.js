@@ -1,13 +1,9 @@
-/* GET homepage */
-const index = (req, res) => {
-    res.render('index', { title: 'Express' });
-   };
-
-   const signin = (req, res) => {
-    res.render('signin', { title: 'Sign In' });
-};
-
-module.exports = {
-    index,
-    signin
-};
+module.exports.index=function(req,res){
+    res.render('index', { title: 'koushik' });
+    };
+    module.exports.signin=function(req,res){
+    res.render('signin', { title: 'koushik' });
+    };
+    module.exports.review=function(req,res){
+    res.render('review', { title: 'koushik' });
+    };
