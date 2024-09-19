@@ -1,0 +1,85 @@
+extends layout 
+block content 
+  .row.page-header 
+    .col-lg-12 
+      h1(style="margin-top:100px") Starcups 
+  .row 
+    .col-xs-12.col-md-9 
+      .row 
+        .col-xs-12.col-sm-6 
+          p.rating 
+            span.glyphicon.glyphicon-star 
+            span.glyphicon.glyphicon-star 
+            span.glyphicon.glyphicon-star 
+            span.glyphicon.glyphicon-star-empty 
+            span.glyphicon.glyphicon-star-empty 
+          p 125 High Street, Reading, RG6 1PS 
+          .panel.panel-primary 
+            .panel-heading 
+              h2.panel-title Opening hours 
+            .panel-body 
+              p Monday - Friday : 7:00am - 7:00pm 
+              p Saturday : 8:00am - 5:00pm 
+              p Sunday : closed 
+          .panel.panel-primary 
+            .panel-heading 
+              h2.panel-title Facilities 
+            .panel-body 
+              span.label.label-warning 
+                span.glyphicon.glyphicon-ok 
+                | &nbsp;Hot drinks 
+              | &nbsp; 
+              span.label.label-warning 
+                span.glyphicon.glyphicon-ok 
+                | &nbsp;Food 
+              | &nbsp; 
+              span.label.label-warning 
+                span.glyphicon.glyphicon-ok 
+                | &nbsp;Premium wifi 
+              | &nbsp; 
+        .col-xs-12.col-sm-6.location-map 
+          .panel.panel-primary 
+            .panel-heading 
+h2.panel-title Location map 
+           .panel-body
+           <iframe src = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.8272226612307!2d78.6534712403193!3d17.420077383541535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb76730bf4dccf%3A0x2ca84b53416f0abd!2sAnurag%20University%2C%20Hyderabad!5e0!3m2!1sen!2sin!4v1690526278364!5m2!1sen!2sin"' width="350" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>              
+.row 
+        .col-xs-12 
+          .panel.panel-primary.review-panel 
+            .panel-heading 
+              a.btn.btn-default.pull-right(href='/location/review/new')     Add review 
+              h2.panel-title Customer reviews 
+            .panel-body.review-container 
+              .row 
+                .review 
+                  .well.well-sm.review-header 
+                    span.rating 
+                      span.glyphicon.glyphicon-star 
+                      span.glyphicon.glyphicon-star 
+                      span.glyphicon.glyphicon-star 
+                      span.glyphicon.glyphicon-star 
+                      span.glyphicon.glyphicon-star 
+                    span.reviewAuthor Simon Holmes 
+                    small.reviewTimestamp 16 July 2013 
+                  .col-xs-12 
+                    p What a great place. I can't say enough good things about it. 
+              .row 
+                .review 
+                  .well.well-sm.review-header 
+                    span.rating 
+                      span.glyphicon.glyphicon-star 
+                      span.glyphicon.glyphicon-star 
+                      span.glyphicon.glyphicon-star 
+                      span.glyphicon.glyphicon-star-empty 
+                      span.glyphicon.glyphicon-star-empty 
+                    span.reviewAuthor Charlie Chaplin 
+                    small.reviewTimestamp 16 June 2013 
+                  .col-xs-12 
+                    p It was okay. Coffee wasn't great, but the wifi was fast. 
+    .col-xs-12.col-md-3 
+      p.lead 
+        Starcups is on Loc8r because it has accessible wifi and space to sit down with your laptop 
+                    andget some work done. 
+ p 
+        If you've been and you like it - or if you don't - please leave a review to help other people just 
+                      like you.
