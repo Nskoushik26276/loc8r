@@ -3,11 +3,11 @@ const index = (req, res) => {
     res.render('index', { title: 'Express' });
     };
     module.exports = module.exports.index=function(req,res){
-        res.render('index', { title: 'Eeshanth Reyhanth' });
+        res.render('index', { title: 'koushik' });
         };
         module.exports.signin=function(req,res){
-        res.render('signin', { title: 'Eeshanth Reyhanth' });
+        res.render('signin', { title: 'koushik' });
         };
         module.exports.review=function(req,res){
-        res.render('review', { title: 'Eeshanth Reyhanth' });
+        res.render('review', { title: 'koushik' });
         };
