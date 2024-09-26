@@ -7,3 +7,9 @@ module.exports.index=function(req,res){
     module.exports.review=function(req,res){ 
     res.render('review', { title: 'review' }); 
     };
+    module.exports.patient=function(req,res){ 
+    res.render('patientinfo', { title: 'add patient' }); 
+    };
+    module.exports.donor=function(req,res){ 
+    res.render('donorinfo', { title: 'add donor' }); 
+    };

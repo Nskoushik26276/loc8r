@@ -1,0 +1,22 @@
+extends layout 
+block content 
+  .row.banner 
+    .col-12 
+      h1(style="margin-top:100px") Patient Information
+  .row 
+    .col-12.col-md-8 
+      form(action="/patients", method="get", role="form") 
+        .form-group.row 
+          label.col-10.col-sm-2.col-form-label(for="name") Name 
+          .col-12.col-sm-10 
+            input#name.form-control(name="name") 
+        .form-group.row 
+          label.col-10.col-sm-2.col-form-label(for="age") Age 
+          .col-12.col-sm-10 
+            input#age.form-control(type="number", name="age", min="0", max="80") 
+        .form-group.row 
+          label.col-sm-2.col-form-label(for="Diagnosis") Diagnosis
+          .col-sm-10 
+            textarea#review.form-control(name="Diagnosis", rows="5") 
+        button.btn.btn-primary.float-right Submit Patient Information
+    .col-12.col-md-4

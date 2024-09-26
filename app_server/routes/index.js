@@ -8,9 +8,11 @@ router.get('/', ctrlLocations.homelist);
 router.get('/locations', ctrlLocations.locationInfo); 
 router.get('/location1', ctrlLocations.locationInfo1); 
 router.get('/location2', ctrlLocations.locationInfo2); 
+router.get('/patient', ctrlmain.patient);
+router.get('/donor', ctrlmain.donor);
 router.get('/review', ctrlLocations.addReview); 
- 
-router.get('/about', ctrlothers.about); 
+
+ router.get('/about', ctrlothers.about); 
  
 router.get('/signin', ctrlmain.signin) 
 router.get('/review', ctrlmain.review) 

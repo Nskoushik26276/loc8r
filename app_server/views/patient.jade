@@ -1,0 +1,23 @@
+extends layout 
+ 
+block content 
+  #banner.page-header 
+    .row 
+      .col-md-6.col-sm-12 
+       
+  .row 
+    .col-md-6.col-sm-12 
+      form(action="/submit_review", method="POST") 
+      label(for="name") Name :  
+      input(type="text", id="name", name="name", required) 
+      br 
+      label(for="email") Email :  
+      input(type="email", id="email", name="email", required) 
+      br 
+      label(for="age") Age(1-80) :  
+      input(type="number", id="age", name="age", min=1, max=80, required) 
+      br 
+      label(for="Diagnosis") Diagnosis :  
+      textarea(id="Diagnosis", name="Diagnosis", rows=5, cols=30, required) 
+      br 
+      input(type="submit", value="Submit")
