@@ -1,26 +1,26 @@
 module.exports.homelist = function(req, res) { 
   res.render('locations-list', { 
-      title: 'Hospital management ', 
+      title: 'Swasthya', 
       pageHeader: { 
-          title: 'Hospital Management', 
+          title: 'Swasthya', 
           strapline: 'Find Hospitals which have Premium treatment' 
       }, 
       sidebar: "Looking for wifi and a seat? Loc8r helps you find places to work when out and about.Perhaps with coffee, cake or a pint? Let Loc8r help you find the place you're looking for.", 
       locations: [{ 
           name: 'Apollo', 
-          address: '125 High Street, Reading, RG6 1PS', 
+          address: "Pollicetty Towers, St. John's Road, beside KEYES HIGH SCHOOL FOR GIRLS, Regimental Bazaar, Shivaji Nagar, Secunderabad, Telangana 500025", 
           rating: 3, 
           facilities: ['Blood Donation', 'Hospitality', 'Premium Treatment'], 
           distance: '100m' 
       }, { 
           name: 'Yashoda', 
-          address: '125 High Street, Reading, RG6 1PS', 
+          address: ' 6-3-905, Raj Bhavan Rd, Matha Nagar, Somajiguda, Hyderabad, Telangana 500082 ', 
           rating: 4, 
           facilities: ['Blood Donation', 'Curing disease', 'Premium wifi'], 
           distance: '200m' 
       }, { 
           name: 'Maxivision', 
-          address: '125 High Street, Reading, RG6 1PS', 
+          address: '6-3-903/a 1, Raj Bhavan Road1, opp. Yashoda Hospital, Somajiguda, Hyderabad, Telangana 500082', 
           rating: 2, 
           facilities: ['Eye treatment', 'Hospitality','Premium wifi'], 
           distance: '250m' 

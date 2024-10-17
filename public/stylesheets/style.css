@@ -1,8 +1,88 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
 }
 
-a {
-  color: #00B7FF;
+/* Header Styles */
+header {
+  background: #5D8AA8;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Navigation */
+.navbar {
+  background: #4a9697;
+  padding: 6px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 12px;
+  margin: 0 6px;
+}
+
+nav a:hover {
+  background: #3A5A7E;
+}
+
+/* Container for the main content */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Hospital Cards */
+.card {
+  background: #fff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+/* Location and Services */
+.service-info {
+  list-style-type: none;
+  padding: 0;
+}
+
+.service-info li {
+  margin: 10px 0;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 6px;
+  background: #5D8AA8;
+  color: #fff;
+  position:bottom;
+  bottom: 1px;;
+  width: 100%;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 600px) {
+  nav {
+      text-align: center;
+  }
+
+  .container {
+      width: 90%;
+  }
+}
+.btn-primary {
+  color: #ffffff;
+  background-color:#5da4a8;
+  border-color: black;
 }
