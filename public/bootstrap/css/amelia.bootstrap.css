@@ -306,7 +306,7 @@ body {
   font-size: 14px;
   line-height: 1.428571429;
   color: #ffffff;
-  background-color: #108a93;
+  background-color: #eeade6;
 }
 
 input,
@@ -532,7 +532,7 @@ h6,
 
 h1 small,
 .h1 small {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 h2 small,
@@ -4975,7 +4975,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   margin-left: -1px;
   line-height: 1.428571429;
   text-decoration: none;
-  background-color: #13a0aa;
+  background-color: #c1cdff;
   border: 1px solid transparent;
 }
 
@@ -5008,7 +5008,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   z-index: 2;
   color: #ffffff;
   cursor: default;
-  background-color: #15b5c1;
+  background-color: #abe6ea;
   border-color: #15b5c1;
 }
 
@@ -5672,7 +5672,7 @@ a.list-group-item:focus {
 
 .panel {
   margin-bottom: 20px;
-  background-color: #13a0aa;
+  background-color: #6d0bf5;
   border: 1px solid transparent;
   border-radius: 4px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
@@ -5832,12 +5832,12 @@ a.list-group-item:focus {
 }
 
 .panel-primary {
-  border-color: #ad1d28;
+  border-color: #04f7ca;
 }
 
 .panel-primary > .panel-heading {
   color: #ffffff;
-  background-color: #ad1d28;
+  background-color: #aa0df4;
   border-color: #ad1d28;
 }
 
@@ -7323,7 +7323,7 @@ legend {
 }
 
 .list-group-item {
-  background-color: #13a0aa;
+  background-color:whitesmoke;
 }
 
 .popover {

@@ -5,7 +5,6 @@ module.exports.homelist = function(req, res) {
           title: 'Swasthya', 
           strapline: 'Find Hospitals which have Premium treatment' 
       }, 
-      sidebar: "Looking for wifi and a seat? Loc8r helps you find places to work when out and about.Perhaps with coffee, cake or a pint? Let Loc8r help you find the place you're looking for.", 
       locations: [{ 
           name: 'Apollo', 
           address: "Pollicetty Towers, St. John's Road, beside KEYES HIGH SCHOOL FOR GIRLS, Regimental Bazaar, Shivaji Nagar, Secunderabad, Telangana 500025", 

@@ -13,7 +13,12 @@ block content
         each location in locations 
           .col-xs-12.list-group-item 
             h4  
-              a(href="/locations")= location.name 
+              if location.name == 'Apollo'
+                a(href="/locations")=location.name
+              else if location.name == 'Yashoda'
+                a(href="/location1")=location.name
+              else location.name == 'Maxivision'
+                a(href="/location2")=location.name
               small &nbsp; 
                 outputRating(location.rating) 
               span.badge.pull-right.badge-default= location.distance 
@@ -23,3 +28,4 @@ block content
                 span.label.label-warning= facility 
                 | &nbsp; 
     .col-xs-12.col-sm-4  
+    

@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #def0f3;
   color: #333;
 }
 
@@ -41,7 +41,6 @@ nav a:hover {
 .card {
   background: #fff;
   margin: 20px;
-  padding: 20px;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -85,4 +84,15 @@ footer {
   color: #ffffff;
   background-color:#5da4a8;
   border-color: black;
+}
+.list-group-item {
+  background-color:#5da4a8;
+}
+.panel {
+  background-color: #adefeb;
+}
+.panel-primary > .panel-heading {
+  color: #ffffff;
+  background-color: #6797da;
+  border-color: #ad1d28;
 }
